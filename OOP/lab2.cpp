@@ -14,6 +14,11 @@ public:
             cout << "No cars available" << endl;
         }
     }
+~Staff() {
+        cout << "Staff object destroyed" << endl;
+    }
+
+    
 
     
 
