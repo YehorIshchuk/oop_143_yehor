@@ -17,6 +17,13 @@ public:
 ~Staff() {
         cout << "Staff object destroyed" << endl;
     }
+void Print() {
+        cout << "Price of Delivery: " << priceofdelivery << endl;
+        cout << "Free Cars: " << freecars << endl;
+    }
+};
+
+
 
     
 
