@@ -34,8 +34,13 @@ public:
 ~Customer() {
         cout << "Customer object destroyed" << endl;
     }
+void Print() {
+        cout << "Number of Orders: " << numberoforders << endl;
+        cout << "Profit: " << profit << endl;
+    }
+};
 
-    
+
 
 
     
