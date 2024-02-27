@@ -39,7 +39,16 @@ void Print() {
         cout << "Profit: " << profit << endl;
     }
 };
+int main() {
+    Staff a(350, true);
+    a.Print();
 
+    Customer b;
+    b.Print();
+
+    return 0;
+}
+    
 
 
 
