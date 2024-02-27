@@ -26,7 +26,13 @@ class Customer {
 private:
     int numberoforders;
     int profit;
+public:
+    Customer() {
+        numberoforders = 5;
+        profit = 1079;
+    }
 
+    
 
 
 
