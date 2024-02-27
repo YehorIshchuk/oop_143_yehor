@@ -22,6 +22,11 @@ void Print() {
         cout << "Free Cars: " << freecars << endl;
     }
 };
+class Customer {
+private:
+    int numberoforders;
+    int profit;
+
 
 
 
